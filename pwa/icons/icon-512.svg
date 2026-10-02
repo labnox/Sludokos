@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Rounded App Icon Background -->
+  <rect width="512" height="512" rx="115" fill="url(#bg-grad)" />
+
+  <!-- Inner Sudoku 3x3 Card -->
+  <rect x="76" y="76" width="360" height="360" rx="32" fill="#ffffff" fill-opacity="0.95" filter="url(#shadow)" />
+
+  <!-- Grid lines -->
+  <!-- Vertical lines -->
+  <line x1="196" y1="92" x2="196" y2="420" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" />
+  <line x1="316" y1="92" x2="316" y2="420" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Horizontal lines -->
+  <line x1="92" y1="196" x2="420" y2="196" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" />
+  <line x1="92" y1="316" x2="420" y2="316" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Highlighted Cell (Center) -->
+  <rect x="200" y="200" width="112" height="112" rx="16" fill="#e0e7ff" />
+
+  <!-- Sudoku Digits -->
+  <!-- Top row: 5, , 9 -->
+  <text x="136" y="168" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="800" fill="#4338ca" text-anchor="middle">5</text>
+  <text x="376" y="168" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="800" fill="#64748b" text-anchor="middle">9</text>
+
+  <!-- Middle row: , 7, 2 -->
+  <text x="256" y="278" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="900" fill="#4f46e5" text-anchor="middle">7</text>
+  <text x="376" y="278" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="800" fill="#64748b" text-anchor="middle">2</text>
+
+  <!-- Bottom row: 3, 1, 8 -->
+  <text x="136" y="388" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="800" fill="#64748b" text-anchor="middle">3</text>
+  <text x="256" y="388" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="800" fill="#06b6d4" text-anchor="middle">1</text>
+  <text x="376" y="388" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="800" fill="#4338ca" text-anchor="middle">8</text>
+
+  <!-- Badge PWA -->
+  <rect x="300" y="360" width="150" height="46" rx="23" fill="#10b981" filter="url(#shadow)" />
+  <text x="375" y="391" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">PWA</text>
+</svg>

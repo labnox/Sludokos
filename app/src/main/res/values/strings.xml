@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sludoko</string>
+    <string name="difficulty_easy">Makkelijk</string>
+    <string name="difficulty_medium">Gemiddeld</string>
+    <string name="difficulty_hard">Moeilijk</string>
+    <string name="difficulty_expert">Expert</string>
+    <string name="action_undo">Herstel</string>
+    <string name="action_erase">Wissen</string>
+    <string name="action_notes">Notities</string>
+    <string name="action_hint">Hint</string>
+    <string name="game_paused">Spel Gepauzeerd</string>
+    <string name="game_won">Gefeliciteerd!</string>
+    <string name="game_over">Spel Voorbij</string>
+</resources>

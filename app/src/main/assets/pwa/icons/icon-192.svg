@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad-192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+
+  <rect width="192" height="192" rx="44" fill="url(#bg-grad-192)" />
+
+  <rect x="28" y="28" width="136" height="136" rx="14" fill="#ffffff" fill-opacity="0.95" />
+
+  <line x1="73" y1="36" x2="73" y2="156" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" />
+  <line x1="119" y1="36" x2="119" y2="156" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" />
+  <line x1="36" y1="73" x2="156" y2="73" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" />
+  <line x1="36" y1="119" x2="156" y2="119" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" />
+
+  <rect x="75" y="75" width="42" height="42" rx="6" fill="#e0e7ff" />
+
+  <text x="51" y="62" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#4338ca" text-anchor="middle">5</text>
+  <text x="96" y="104" font-family="system-ui, sans-serif" font-size="24" font-weight="900" fill="#4f46e5" text-anchor="middle">7</text>
+  <text x="141" y="146" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#4338ca" text-anchor="middle">8</text>
+  <text x="96" y="146" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#06b6d4" text-anchor="middle">1</text>
+</svg>
