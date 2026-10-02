@@ -1,8 +1,0 @@
-{
-  "name": "Remix Sludoko",
-  "description": "Een interactieve, moderne en mobielvriendelijke Sudoku puzzelervaring met notities, hints, moeilijkheidsgraden en statistieken.",
-  "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
-}
